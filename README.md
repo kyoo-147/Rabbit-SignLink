@@ -6,7 +6,11 @@
 ![Rabbit-SignLink LLM-connected demo](demo/demo.png)
 
 ## 🎥 Legacy demo
-![Rabbit-SignLink legacy demo](demo/demo.gif)
+
+<img src="demo/demo.gif" alt="Rabbit-SignLink legacy demo" width="900" />
+
+<br />
+
 [Watch legacy video demo](demo/demo_small.mp4)
 
 ---
