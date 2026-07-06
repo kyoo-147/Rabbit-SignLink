@@ -1,9 +1,12 @@
 # Rabbit-SignLink: Sign Language Learning & Recognition Assistant (NaVin AIF)
 
+## 📺 Demo / Screenshots
+
+### 🖼️ Version connected with LLM
+![Rabbit-SignLink LLM-connected demo](demo/demo.png)
+
 ## 🎥 Legacy demo
-
 ![Rabbit-SignLink legacy demo](demo/demo.gif)
-
 [Watch legacy video demo](demo/demo_small.mp4)
 
 ---
