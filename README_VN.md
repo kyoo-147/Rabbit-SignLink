@@ -1,10 +1,12 @@
 # Rabbit-SignLink: Trình học tập & Nhận diện ngôn ngữ ký hiệu (NaVin AIF)
 
-## 📺 Demo / Screenshots
+### 🖼️ Phiên bản được kết nối với LLM
+![Application Demo UI](demo/demo.png)
+* [Mở ảnh cục bộ](file:///C:/Users/navin/Downloads/NV942/NV942/demo/demo.png)
 
-| Phiên bản được kết nối với LLM | Video demo cũ |
-|:---:|:---:|
-| ![Application Demo UI](demo/demo.png) <br> [Mở ảnh cục bộ](file:///C:/Users/navin/Downloads/NV942/NV942/demo/demo.png) | <video src="demo/old_video_demo.mp4" width="380" controls></video> <br> [Mở video cục bộ](file:///C:/Users/navin/Downloads/NV942/NV942/demo/old_video_demo.mp4) |
+### 🎥 Video demo cũ
+<video src="demo/old_video_demo.mp4" width="100%" controls></video>
+* [Mở video cục bộ](file:///C:/Users/navin/Downloads/NV942/NV942/demo/old_video_demo.mp4)
 
 ---
 

@@ -1,10 +1,12 @@
 # Rabbit-SignLink: Sign Language Learning & Recognition Assistant (NaVin AIF)
 
-## 📺 Demo / Screenshots
+### 🖼️ Version connected with LLM
+![Application Demo UI](demo/demo.png)
+* [Open Local Image](file:///C:/Users/navin/Downloads/NV942/NV942/demo/demo.png)
 
-| Version connected with LLM | Legacy video demo |
-|:---:|:---:|
-| ![Application Demo UI](demo/demo.png) <br> [Open Local Image](file:///C:/Users/navin/Downloads/NV942/NV942/demo/demo.png) | <video src="demo/old_video_demo.mp4" width="380" controls></video> <br> [Open Local Video](file:///C:/Users/navin/Downloads/NV942/NV942/demo/old_video_demo.mp4) |
+### 🎥 Legacy video demo
+<video src="demo/old_video_demo.mp4" width="100%" controls></video>
+* [Open Local Video](file:///C:/Users/navin/Downloads/NV942/NV942/demo/old_video_demo.mp4)
 
 ---
 
