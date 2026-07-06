@@ -1,12 +1,13 @@
 # Rabbit-SignLink: Sign Language Learning & Recognition Assistant (NaVin AIF)
 
+### 📺 Demo / Screenshots
+
 ### 🖼️ Version connected with LLM
-![Application Demo UI](demo/demo.png)
-* [Open Local Image](file:///C:/Users/navin/Downloads/NV942/NV942/demo/demo.png)
+![Rabbit-SignLink legacy demo](demo/demo.png)
 
 ### 🎥 Legacy video demo
 <video src="demo/old_video_demo.mp4" width="100%" controls></video>
-* [Open Local Video](file:///C:/Users/navin/Downloads/NV942/NV942/demo/old_video_demo.mp4)
+[Watch legacy video demo](demo/old_video_demo.mp4)
 
 ---
 
@@ -84,7 +85,7 @@ pip install tensorflow tf-keras PyQt5 opencv-python mysql-connector-python bcryp
 ```
 
 ### 2. Windows DLL & Keras 3 Patches
-* **DLL Load Order:** On Windows, importing `PyQt5` before `tensorflow` causes a conflict in the C-runtime libraries. The codebase has been patched to import `tensorflow` **first** in both [main.py](file:///C:/Users/navin/Downloads/NV942/NV942/main.py) and [LearnActivity.py](file:///C:/Users/navin/Downloads/NV942/NV942/LearnActivity.py).
+* **DLL Load Order:** On Windows, importing `PyQt5` before `tensorflow` causes a conflict in the C-runtime libraries. The codebase has been patched to import `tensorflow` **first** in both [main.py](main.py) and [LearnActivity.py](LearnActivity.py).
 * **Keras 3 Wrapper:** The legacy model is loaded using `tf_keras.models.load_model` to resolve backward-compatibility crashes.
 * **MySQL Bypass:** If a local MySQL server is not active on port 3306, the login window will automatically bypass authentication to allow quick GUI evaluation.
 

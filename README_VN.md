@@ -1,12 +1,11 @@
 # Rabbit-SignLink: Trình học tập & Nhận diện ngôn ngữ ký hiệu (NaVin AIF)
 
 ### 🖼️ Phiên bản được kết nối với LLM
-![Application Demo UI](demo/demo.png)
-* [Mở ảnh cục bộ](file:///C:/Users/navin/Downloads/NV942/NV942/demo/demo.png)
+![Rabbit-SignLink legacy demo](demo/demo.png)
 
 ### 🎥 Video demo cũ
 <video src="demo/old_video_demo.mp4" width="100%" controls></video>
-* [Mở video cục bộ](file:///C:/Users/navin/Downloads/NV942/NV942/demo/old_video_demo.mp4)
+[Xem video demo cũ](demo/old_video_demo.mp4)
 
 ---
 
@@ -83,7 +82,7 @@ pip install tensorflow tf-keras PyQt5 opencv-python mysql-connector-python bcryp
 ```
 
 ### 2. Lưu ý quan trọng khi khởi chạy trên Windows
-* **Trật tự import tránh lỗi DLL:** Trên Windows, việc nạp PyQt5 trước TensorFlow có thể gây lỗi nạp DLL thư viện C. Hệ thống bắt buộc phải import `tensorflow` **đầu tiên** tại tệp [main.py](file:///C:/Users/navin/Downloads/NV942/NV942/main.py) và [LearnActivity.py](file:///C:/Users/navin/Downloads/NV942/NV942/LearnActivity.py).
+* **Trật tự import tránh lỗi DLL:** Trên Windows, việc nạp PyQt5 trước TensorFlow có thể gây lỗi nạp DLL viện C. Hệ thống bắt buộc phải import `tensorflow` **đầu tiên** tại tệp [main.py](main.py) và [LearnActivity.py](LearnActivity.py).
 * **Tương thích Keras 3:** Mô hình kế thừa được nạp qua `tf_keras.models.load_model` để tránh lỗi kiểu dữ liệu nạp mô hình `.h5` cũ.
 * **Tự động bỏ qua Đăng nhập:** Nếu không kết nối được MySQL trên cổng 3306 cục bộ, giao diện đăng nhập sẽ kích hoạt cơ chế bypass giúp bạn đi thẳng vào màn hình kiểm thử chính của ứng dụng.
 
