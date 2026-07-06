@@ -4,8 +4,8 @@
 ![Rabbit-SignLink legacy demo](demo/demo.png)
 
 ### 🎥 Video demo cũ
-<video src="demo/old_video_demo.mp4" width="100%" controls></video>
-[Xem video demo cũ](demo/old_video_demo.mp4)
+<video src="demo/demo_small.mp4" width="100%" controls></video>
+[Xem video demo cũ](demo/demo_small.mp4)
 
 ---
 

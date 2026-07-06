@@ -6,8 +6,8 @@
 ![Rabbit-SignLink legacy demo](demo/demo.png)
 
 ### 🎥 Legacy video demo
-<video src="demo/old_video_demo.mp4" width="100%" controls></video>
-[Watch legacy video demo](demo/old_video_demo.mp4)
+<video src="demo/demo_small.mp4" width="100%" controls></video>
+[Watch legacy video demo](demo/demo_small.mp4)
 
 ---
 
